@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: removebg-api
+    runtime: python
+    repo: https://github.com/aperalta725/removebg-api
+    buildCommand: pip install -r requirements.txt
+    startCommand: bash start.sh
